@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terapiá Clinic</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./"><img src="./img/logo.svg" alt="Terapiá Clinic logo" width="36" height="36"><span>Terapiá Clinic</span></a>
+    <nav class="nav">
+      <a href="./">Home</a>
+      <a href="./services.html">Services</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html" class="btn">Book Appointment</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container grid">
+      <div>
+        <h1>Best Solution For Painful Life</h1>
+        <p>Evidence‑based physiotherapy, manual therapy, and personalized rehab programs.</p>
+        <a class="btn primary" href="./contact.html">Book Appointment</a>
+      </div>
+      <div class="hero-img"><img src="./img/hero.svg" alt="Physiotherapy illustration"></div>
+    </div>
+  </section>
+
+  <section class="features container grid">
+    <article class="card"><h3>Back & Neck</h3><p>Spine care, posture correction, ergonomic training.</p></article>
+    <article class="card"><h3>Sports Injury</h3><p>Return‑to‑play protocols and performance rehab.</p></article>
+    <article class="card"><h3>Pediatric</h3><p>Gentle care designed for children and adolescents.</p></article>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="y"></span> Terapiá Clinic — Physiotherapy &amp; Pain Relief Center</p>
+  </div>
+</footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
